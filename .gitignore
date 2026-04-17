@@ -1,0 +1,40 @@
+# Data directories (too large for git)
+recover/model_with_class_bn/
+recover/syn_data_LPLD/
+relabel_and_validate/syn_label_LPLD/
+relabel_and_validate/syn_label_LPQLD/
+relabel_and_validate/syn_label_LPLD_prune_quantize/
+relabel_and_validate/syn_label_LPLD_sweet_spot/
+relabel_and_validate/validate_result/
+relabel_and_validate/save/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Experiment tracking
+wandb/
+*.log
+*.txt
+
+# Large binary files
+*.pth
+*.tar
+*.tar.gz
+*.zip
+*.pt
+*.npy
+
+# Image/data files
+*.JPEG
+*.jpg
+*.png
+*.csv
+*.json
+*.html
+
+# Archive directory
+archive/
+tpami_25.pdf
+pytorch-self-distillation-final/

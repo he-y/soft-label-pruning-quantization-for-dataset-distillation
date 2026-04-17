@@ -1,0 +1,26 @@
+name: lpqld
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip:
+    # PyTorch (GPU environment)
+    - torch
+    - torchvision
+    - torchaudio
+    - datasets
+    # tools
+    - matplotlib
+    - plotly
+    - pyyaml
+    - pandas
+    - numpy
+    - seaborn
+    # useful packages
+    - rich
+    - tqdm
+    # experiment tracking
+    - wandb
+    # model utilities
+    - timm
+    - ema-pytorch
